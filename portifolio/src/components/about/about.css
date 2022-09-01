@@ -90,7 +90,7 @@
   }
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
@@ -101,6 +101,9 @@
   }
   .about__content {
     text-align: center;
+  }
+  .about__container {
+    justify-items: center;
   }
   .about__content p {
     margin: 1.5rem 0;

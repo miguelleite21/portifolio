@@ -4,7 +4,7 @@ import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
-
+import IMG5 from "../../assets/portfolio5.png";
 export const Portifolio = () => {
   return (
     <section id="portfolio">
@@ -79,6 +79,30 @@ export const Portifolio = () => {
             >
               Projeto
             </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Emprestimo</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/miguelleite21/emprestimo"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://emprestimo-g8lxfxowr-miguelleite21.vercel.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Projeto
+            </a>
+            <div />
           </div>
         </article>
 
@@ -210,7 +234,57 @@ export const Portifolio = () => {
             </a>
           </div>
         </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Emprestimo API</h3>
+
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/miguelleite21/api-emprestimo"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://api-emprestimo.herokuapp.com/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              API
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Comunicação de perda</h3>
+
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/miguelleite21/api-loss-communication"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://api-loss-communication.herokuapp.com/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              API
+            </a>
+          </div>
+        </article>
+        
       </div>
     </section>
+    
   );
 };
